@@ -9,11 +9,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Dynasty Dads leagues operate very differently than a vast majority of communities. We believe in the individuality of each separate league. 
   While each league will operate under a similar umbrella, each league will have its own set of rules and settings voted on pre-draft by all leaguemates. 
-  This gives power to the individual leagues and owners to make each league unique. If there is something you want to bring up for a vote feel free, 
-  at the conclusion of every season pretty much everything is fair game. 
+  This gives power to the individual leagues and owners to make each league unique.<br>
+  If there is something you want to bring up for a vote feel free, at the conclusion of every season pretty much everything is fair game. 
   Depending on the gravity of the rule change a vote could pass with as simple of a majority vote, others may require a unanimous vote, 
   this is up to discretion of the league commish. While each league will be unique, there will be a base set of rules at every level of a league. 
-  With this being said- NO RULES WILL CHANGE MID-SEASON FOR ANY REASON</p>
+  With this being said- NO RULES WILL CHANGE MID-SEASON FOR ANY REASON.</p>
 `;
 
 /*   STEP 3   */
