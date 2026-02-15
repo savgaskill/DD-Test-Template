@@ -4,7 +4,7 @@
 
 // Svelte Colors!
 @use '@material/theme/index' as theme with (
-  $primary: #ff1a1a,
+  $primary: #D90000,
   $secondary: #cc0000,
   $surface: #fff,
   $background: #fff,
@@ -65,8 +65,8 @@
   --fadeTwo: rgba(255, 255, 255, 0.7) 50%;
   --fadeThree: rgba(255, 255, 255, 0.9) 90%;
   --fadeFour: rgba(255, 255, 255, 1) 100%;
-  --blueOne: #00316b;
-  --blueTwo: #0082c3;
+  --blueOne: #FF6060;
+  --blueTwo: #860000;
   --r1: #f7f9fd;
   --r2: #fbf7f7;
   --r3: #f7fbf7;
@@ -184,12 +184,29 @@ strong {
 }
 
 a {
-  color: #40b3ff;
+  color: #b30000;
 }
 a:visited {
-  color: color.scale(#40b3ff, $lightness: -35%);
+  color: color.scale(#800000, $lightness: -35%);
 }
 
 .mdc-button--outlined:not(:disabled) {
   background-color: #f9f9f9 !important;
+}
+}
+/* Deep red fade underline for SMUI tabs */
+.mdc-tab-indicator__content--underline {
+  border: none !important;
+  height: 3px; /* adjust thickness if you want */
+  background: linear-gradient(
+    to right,
+    rgba(179, 0, 0, 0) 0%,
+    rgba(179, 0, 0, 1) 50%,
+    rgba(179, 0, 0, 0) 100%
+  ) !important;
+}
+/* Override the blue submenu border/shadow */
+.subMenu {
+  border-color: #b30000 !important;
+  box-shadow: 0 0 0 #b30000 !important;
 }
