@@ -4,7 +4,7 @@
 
 // Svelte Colors!
 @use '@material/theme/index' as theme with (
-  $primary: #ff1a1a,
+  $primary: #D90000,
   $secondary: #cc0000,
   $surface: #000000,
   $background: #000000,
@@ -61,12 +61,12 @@
   --waiverDrop: #423a3a;
   --bracketMatch: #010102;
   --matchupSelected: #2f2f35;
-  --fadeOne: rgba(0, 0, 0, 0) 0%;
-  --fadeTwo: rgba(0, 0, 0, 0.7) 50%;
-  --fadeThree: rgba(0, 0, 0, 0.9) 90%;
-  --fadeFour: rgba(0, 0, 0, 1) 100%;
-  --blueOne: #0082c3;
-  --blueTwo: #003c86;
+  --fadeOne: rgba(179, 0, 0, 0) 0%;
+  --fadeTwo: rgba(179, 0, 0, 0.7) 50%;
+  --fadeThree: rgba(179, 0, 0, 0.9) 90%;
+  --fadeFour: rgba(179, 0, 0, 1) 100%;
+  --blueOne: #FF6060;
+  --blueTwo: #860000;
   --r1: #1c1c1d;
   --r2: #1f1d1d;
   --r3: #181a18;
