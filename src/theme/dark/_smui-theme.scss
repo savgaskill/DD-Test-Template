@@ -187,7 +187,7 @@ a {
   color: #b30000;
 }
 a:visited {
-  color: color.scale(#b30000, $lightness: -35%);
+  color: color.scale(#800000, $lightness: -35%);
 }
 
 .mdc-button--outlined:not(:disabled) {
@@ -203,4 +203,8 @@ a:visited {
     rgba(179, 0, 0, 1) 50%,
     rgba(179, 0, 0, 0) 100%
   ) !important;
+}
+/* Global link color override */
+a {
+  color: #b30000 !important;
 }
