@@ -204,15 +204,9 @@ a:visited {
     rgba(179, 0, 0, 0) 100%
   ) !important;
 }
-/* Global link color override */
-a {
-  color: #b30000 !important;
+/* Override the blue submenu border/shadow */
+.subMenu {
+  border-color: #b30000 !important;
+  box-shadow: 0 0 0 #b30000 !important;
 }
-/* Nuclear override for SMUI’s blue link underline */
-a,
-a:visited,
-a:hover,
-a:active {
-  color: #b30000 !important;
-  text-decoration-color: #b30000 !important;
-}
+
