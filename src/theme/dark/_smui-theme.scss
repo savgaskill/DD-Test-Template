@@ -193,3 +193,14 @@ a:visited {
 .mdc-button--outlined:not(:disabled) {
   background-color: #070707 !important;
 }
+/* Deep red fade underline for SMUI tabs */
+.mdc-tab-indicator__content--underline {
+  border: none !important;
+  height: 3px; /* adjust thickness if you want */
+  background: linear-gradient(
+    to right,
+    rgba(179, 0, 0, 0) 0%,
+    rgba(179, 0, 0, 1) 50%,
+    rgba(179, 0, 0, 0) 100%
+  ) !important;
+}
