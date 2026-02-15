@@ -11,7 +11,7 @@
     <Nav /> <!-- adds the nav (small and large) -->
   
     <slot />
-<a href="https://your-main-url.com" class="floatingHome">
+<a href="https://www.dynastydads.com/" class="floatingHome">
   Home
 </a>
 
