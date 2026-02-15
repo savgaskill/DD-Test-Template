@@ -208,3 +208,11 @@ a:visited {
 a {
   color: #b30000 !important;
 }
+/* Nuclear override for SMUI’s blue link underline */
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #b30000 !important;
+  text-decoration-color: #b30000 !important;
+}
